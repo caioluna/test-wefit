@@ -17,6 +17,5 @@ export const FilmGrid = styled.div`
   
   @media (max-width: 500px) {
     grid-template-columns: 1fr;
-
   }
 `

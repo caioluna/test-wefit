@@ -1,9 +1,11 @@
+import { useContext } from "react";
+
+import { CartContext } from "../../contexts/cart";
+
 import { Container, FilmImage, FilmText } from "./styles";
 
 import Button from "../Button";
 import cartIcon from "../../assets/cart-icon.svg";
-import { CartContext } from "../../contexts/cart";
-import { useContext } from "react";
 
 type FilmProps = {
   id: number;

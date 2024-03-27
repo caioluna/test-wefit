@@ -1,7 +1,9 @@
-import { Container, SearchButton, SearchInput } from "./styles";
-import searchIcon from "../../assets/search.png";
 import { ChangeEvent, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+
+import { Container, SearchButton, SearchInput } from "./styles";
+
+import searchIcon from "../../assets/search.png";
 
 export function SearchBar() {
   const [values, setValues] = useState("");

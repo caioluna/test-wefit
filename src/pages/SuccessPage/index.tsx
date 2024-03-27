@@ -12,7 +12,9 @@ export function SuccessPage() {
     <Container>
       <Wrapper>
         <Title>Compra realizada com sucesso!</Title>
+
         <img src={successImg} alt="Imagem de um homem confirmando a compra" />
+
         <Button
           onClick={() => navigate("/")}
           variant="empty"

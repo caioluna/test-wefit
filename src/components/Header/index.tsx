@@ -1,9 +1,10 @@
-import { CartWrapper, Container } from "./styles";
-import { CartContext } from "../../contexts/cart";
-
-import basketIcon from "../../assets/basket-icon.png";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+
+import { CartContext } from "../../contexts/cart";
+
+import { CartWrapper, Container } from "./styles";
+import basketIcon from "../../assets/basket-icon.png";
 
 export function Header() {
   const { cart } = useContext(CartContext);
